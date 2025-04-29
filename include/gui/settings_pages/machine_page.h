@@ -43,6 +43,7 @@ private slots:
     void onConfigureClicked();
 
 private:
+    void onCpuBackendChanged(int index);
     void setupUi();
     void populateMachineTypes();
     void populateMachines();
@@ -68,6 +69,9 @@ private:
     bool m_origDynamicRecompiler;
     bool m_origSoftfloatFpu;
     int m_origTimeSyncMode;
+    QGroupBox* m_cpuBackendGroup;
+    QComboBox* m_cpuBackendCombo;
+    QString m_origCpuBackend;
     
     // UI Controls
     QComboBox* m_machineTypeCombo;

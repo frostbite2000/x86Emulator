@@ -1,0 +1,2206 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Language: ru_RU\n"
+"X-Source-Language: en_US\n"
+
+msgid "&Action"
+msgstr "&Действие"
+
+msgid "&Keyboard requires capture"
+msgstr "&Клавиатура требует захвата"
+
+msgid "&Right CTRL is left ALT"
+msgstr "&Правый CTRL - это левый ALT"
+
+msgid "&Hard Reset..."
+msgstr "&Холодная перезагрузка..."
+
+msgid "&Ctrl+Alt+Del"
+msgstr "&Ctrl+Alt+Del"
+
+msgid "Ctrl+Alt+&Esc"
+msgstr "Ctrl+Alt+&Esc"
+
+msgid "&Pause"
+msgstr "&Пауза"
+
+msgid "E&xit..."
+msgstr "&Выход..."
+
+msgid "&View"
+msgstr "&Вид"
+
+msgid "&Hide status bar"
+msgstr "&Скрыть строку состояния"
+
+msgid "Hide &toolbar"
+msgstr "С&крыть панель инструментов"
+
+msgid "&Resizeable window"
+msgstr "&Изменяемый размер окна"
+
+msgid "R&emember size && position"
+msgstr "&Запомнить размер и положение"
+
+msgid "Re&nderer"
+msgstr "&Рендеринг"
+
+msgid "&Qt (Software)"
+msgstr "&Qt (Software)"
+
+msgid "Qt (&OpenGL)"
+msgstr "Qt (&OpenGL)"
+
+msgid "Open&GL (3.0 Core)"
+msgstr "Open&GL (3.0 Core)"
+
+msgid "&VNC"
+msgstr "&VNC"
+
+msgid "Specify dimensions..."
+msgstr "&Указать размеры главного окна..."
+
+msgid "F&orce 4:3 display ratio"
+msgstr "У&становить соотношение сторон 4:3"
+
+msgid "&Window scale factor"
+msgstr "&Масштаб окна"
+
+msgid "&0.5x"
+msgstr "&0.5x"
+
+msgid "&1x"
+msgstr "&1x"
+
+msgid "1.&5x"
+msgstr "1.&5x"
+
+msgid "&2x"
+msgstr "&2x"
+
+msgid "&3x"
+msgstr "&3x"
+
+msgid "&4x"
+msgstr "&4x"
+
+msgid "&5x"
+msgstr "&5x"
+
+msgid "&6x"
+msgstr "&6x"
+
+msgid "&7x"
+msgstr "&7x"
+
+msgid "&8x"
+msgstr "&8x"
+
+msgid "Filter method"
+msgstr "Метод фильтрации"
+
+msgid "&Nearest"
+msgstr "&Ближайший"
+
+msgid "&Linear"
+msgstr "&Линейный"
+
+msgid "Hi&DPI scaling"
+msgstr "Масштабирование Hi&DPI"
+
+msgid "&Fullscreen"
+msgstr "&Полноэкранный режим"
+
+msgid "Fullscreen &stretch mode"
+msgstr "&Растягивание в полноэкранном режиме"
+
+msgid "&Full screen stretch"
+msgstr "&На весь экран"
+
+msgid "&4:3"
+msgstr "&4:3"
+
+msgid "&Square pixels (Keep ratio)"
+msgstr "&Квадратные пиксели (сохранить соотношение)"
+
+msgid "&Integer scale"
+msgstr "&Целочисленное масштабирование"
+
+msgid "4:&3 Integer scale"
+msgstr "4:&3 Целочисленное масштабирование"
+
+msgid "E&GA/(S)VGA settings"
+msgstr "Настройки E&GA/(S)VGA"
+
+msgid "&Inverted VGA monitor"
+msgstr "&Инвертировать цвета VGA"
+
+msgid "VGA screen &type"
+msgstr "&Тип экрана VGA"
+
+msgid "RGB &Color"
+msgstr "RGB &цветной"
+
+msgid "&RGB Grayscale"
+msgstr "&RGB монохромный"
+
+msgid "&Amber monitor"
+msgstr "&Янтарный оттенок"
+
+msgid "&Green monitor"
+msgstr "&Зелёный оттенок"
+
+msgid "&White monitor"
+msgstr "&Белый оттенок"
+
+msgid "Grayscale &conversion type"
+msgstr "Тип монохромного &конвертирования"
+
+msgid "BT&601 (NTSC/PAL)"
+msgstr "BT&601 (NTSC/PAL)"
+
+msgid "BT&709 (HDTV)"
+msgstr "BT&709 (HDTV)"
+
+msgid "&Average"
+msgstr "&Усреднённый"
+
+msgid "CGA/PCjr/Tandy/E&GA/(S)VGA overscan"
+msgstr "Вылеты развёртки CGA/PCjr/Tandy/E&GA/(S)VGA"
+
+msgid "Change contrast for &monochrome display"
+msgstr "Изменить контрастность &монохромного дисплея"
+
+msgid "&Media"
+msgstr "&Носители"
+
+msgid "&Tools"
+msgstr "&Инструменты"
+
+msgid "&Settings..."
+msgstr "&Настройки машины..."
+
+msgid "&Update status bar icons"
+msgstr "&Обновление значков строки состояния"
+
+msgid "Take s&creenshot"
+msgstr "Сделать с&криншот"
+
+msgid "S&ound"
+msgstr "&Звук"
+
+msgid "&Preferences..."
+msgstr "&Параметры..."
+
+msgid "Enable &Discord integration"
+msgstr "Включить интеграцию &Discord"
+
+msgid "Sound &gain..."
+msgstr "&Усиление звука..."
+
+msgid "Begin trace"
+msgstr "Начать трассировку"
+
+msgid "End trace"
+msgstr "Завершить трассировку"
+
+msgid "&Help"
+msgstr "&Помощь"
+
+msgid "&Documentation..."
+msgstr "&Документация..."
+
+msgid "&About 86Box..."
+msgstr "&О 86Box..."
+
+msgid "&New image..."
+msgstr "&Новый образ..."
+
+msgid "&Existing image..."
+msgstr "&Выбрать образ..."
+
+msgid "Existing image (&Write-protected)..."
+msgstr "Выбрать образ (&Защита от записи)..."
+
+msgid "&Record"
+msgstr "&Запись"
+
+msgid "&Play"
+msgstr "&Воспроизведение"
+
+msgid "&Rewind to the beginning"
+msgstr "&Перемотка на начало"
+
+msgid "&Fast forward to the end"
+msgstr "&Перемотка в конец"
+
+msgid "E&ject"
+msgstr "И&звлечь"
+
+msgid "&Image..."
+msgstr "&Образ..."
+
+msgid "E&xport to 86F..."
+msgstr "Э&кспорт в 86F..."
+
+msgid "&Mute"
+msgstr "О&тключить звук"
+
+msgid "E&mpty"
+msgstr "П&устой"
+
+msgid "Reload previous image"
+msgstr "Перезагрузить предыдущий образ"
+
+msgid "&Folder..."
+msgstr "&Папка..."
+
+msgid "Target &framerate"
+msgstr "Целевая &частота кадров"
+
+msgid "&Sync with video"
+msgstr "&Синхронизация с видео"
+
+msgid "&25 fps"
+msgstr "&25 кадров в секунду"
+
+msgid "&30 fps"
+msgstr "&30 кадров в секунду"
+
+msgid "&50 fps"
+msgstr "&50 кадров в секунду"
+
+msgid "&60 fps"
+msgstr "&60 кадров в секунду"
+
+msgid "&75 fps"
+msgstr "&75 кадров в секунду"
+
+msgid "&VSync"
+msgstr "&VSync"
+
+msgid "&Select shader..."
+msgstr "&Выбрать шейдер..."
+
+msgid "&Remove shader"
+msgstr "&Удалить шейдер"
+
+msgid "Preferences"
+msgstr "Параметры"
+
+msgid "Sound Gain"
+msgstr "Усиление звука"
+
+msgid "New Image"
+msgstr "Новый образ"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Specify Main Window Dimensions"
+msgstr "Указать размеры главного окна"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "&Default"
+msgstr "&По умолчанию"
+
+msgid "Language:"
+msgstr "Язык:"
+
+msgid "Gain"
+msgstr "Усиление"
+
+msgid "File name:"
+msgstr "Имя файла:"
+
+msgid "Disk size:"
+msgstr "Размер диска:"
+
+msgid "RPM mode:"
+msgstr "RPM режим:"
+
+msgid "Progress:"
+msgstr "Прогресс:"
+
+msgid "Width:"
+msgstr "Ширина:"
+
+msgid "Height:"
+msgstr "Высота:"
+
+msgid "Lock to this size"
+msgstr "Зафиксировать размер"
+
+msgid "Machine type:"
+msgstr "Тип машины:"
+
+msgid "Machine:"
+msgstr "Системная плата:"
+
+msgid "Configure"
+msgstr "Настройка"
+
+msgid "CPU type:"
+msgstr "Тип ЦП:"
+
+msgid "Speed:"
+msgstr "Скорость:"
+
+msgid "Frequency:"
+msgstr "Частота:"
+
+msgid "FPU:"
+msgstr "FPU:"
+
+msgid "Wait states:"
+msgstr "Циклы ожидания:"
+
+msgid "MB"
+msgstr "МБ"
+
+msgid "Memory:"
+msgstr "Память:"
+
+msgid "Time synchronization"
+msgstr "Синхронизация времени"
+
+msgid "Disabled"
+msgstr "Отключено"
+
+msgid "Enabled (local time)"
+msgstr "Включено (местное)"
+
+msgid "Enabled (UTC)"
+msgstr "Включено (UTC)"
+
+msgid "Dynamic Recompiler"
+msgstr "Динамический рекомпилятор"
+
+msgid "Video:"
+msgstr "Видеокарта 1:"
+
+msgid "Video #2:"
+msgstr "Видеокарта 2:"
+
+msgid "Voodoo 1 or 2 Graphics"
+msgstr "Ускоритель Voodoo 1 или 2"
+
+msgid "IBM 8514/A Graphics"
+msgstr "Ускоритель IBM 8514/A"
+
+msgid "XGA Graphics"
+msgstr "Ускоритель XGA"
+
+msgid "Mouse:"
+msgstr "Мышь:"
+
+msgid "Joystick:"
+msgstr "Джойстик:"
+
+msgid "Joystick 1..."
+msgstr "Джойстик 1..."
+
+msgid "Joystick 2..."
+msgstr "Джойстик 2..."
+
+msgid "Joystick 3..."
+msgstr "Джойстик 3..."
+
+msgid "Joystick 4..."
+msgstr "Джойстик 4..."
+
+msgid "Sound card #1:"
+msgstr "Звуковая карта 1:"
+
+msgid "Sound card #2:"
+msgstr "Звуковая карта 2:"
+
+msgid "Sound card #3:"
+msgstr "Звуковая карта 3:"
+
+msgid "Sound card #4:"
+msgstr "Звуковая карта 4:"
+
+msgid "MIDI Out Device:"
+msgstr "Устройство вывода MIDI:"
+
+msgid "MIDI In Device:"
+msgstr "Устройство ввода MIDI:"
+
+msgid "Standalone MPU-401"
+msgstr "Отдельный MPU-401"
+
+msgid "Use FLOAT32 sound"
+msgstr "FLOAT32 звук"
+
+msgid "FM synth driver"
+msgstr "Драйвер FM-синтезатора"
+
+msgid "Nuked (more accurate)"
+msgstr "Nuked (более точный)"
+
+msgid "YMFM (faster)"
+msgstr "YMFM (быстрее)"
+
+msgid "COM1 Device:"
+msgstr "Устройство COM1:"
+
+msgid "COM2 Device:"
+msgstr "Устройство COM2:"
+
+msgid "COM3 Device:"
+msgstr "Устройство COM3:"
+
+msgid "COM4 Device:"
+msgstr "Устройство COM4:"
+
+msgid "LPT1 Device:"
+msgstr "Устройство LPT1:"
+
+msgid "LPT2 Device:"
+msgstr "Устройство LPT2:"
+
+msgid "LPT3 Device:"
+msgstr "Устройство LPT3:"
+
+msgid "LPT4 Device:"
+msgstr "Устройство LPT4:"
+
+msgid "Serial port 1"
+msgstr "Последовательный порт COM1"
+
+msgid "Serial port 2"
+msgstr "Последовательный порт COM2"
+
+msgid "Serial port 3"
+msgstr "Последовательный порт COM3"
+
+msgid "Serial port 4"
+msgstr "Последовательный порт COM4"
+
+msgid "Parallel port 1"
+msgstr "Параллельный порт LPT1"
+
+msgid "Parallel port 2"
+msgstr "Параллельный порт LPT2"
+
+msgid "Parallel port 3"
+msgstr "Параллельный порт LPT3"
+
+msgid "Parallel port 4"
+msgstr "Параллельный порт LPT4"
+
+msgid "HD Controller:"
+msgstr "Контроллер HD:"
+
+msgid "FD Controller:"
+msgstr "Контроллер FD:"
+
+msgid "Tertiary IDE Controller"
+msgstr "Третичный IDE контроллер"
+
+msgid "Quaternary IDE Controller"
+msgstr "Четвертичный IDE контроллер"
+
+msgid "SCSI"
+msgstr "SCSI"
+
+msgid "Controller 1:"
+msgstr "Контроллер 1:"
+
+msgid "Controller 2:"
+msgstr "Контроллер 2:"
+
+msgid "Controller 3:"
+msgstr "Контроллер 3:"
+
+msgid "Controller 4:"
+msgstr "Контроллер 4:"
+
+msgid "Cassette"
+msgstr "Кассета"
+
+msgid "Hard disks:"
+msgstr "Жёсткие диски:"
+
+msgid "&New..."
+msgstr "&Создать..."
+
+msgid "&Existing..."
+msgstr "&Выбрать..."
+
+msgid "&Remove"
+msgstr "&Удалить"
+
+msgid "Bus:"
+msgstr "Шина:"
+
+msgid "Channel:"
+msgstr "Канал:"
+
+msgid "ID:"
+msgstr "ID:"
+
+msgid "&Specify..."
+msgstr "&Указать..."
+
+msgid "Sectors:"
+msgstr "Секторы:"
+
+msgid "Heads:"
+msgstr "Головки:"
+
+msgid "Cylinders:"
+msgstr "Цилиндры:"
+
+msgid "Size (MB):"
+msgstr "Размер (МБ):"
+
+msgid "Type:"
+msgstr "Тип:"
+
+msgid "Image Format:"
+msgstr "Тип образа:"
+
+msgid "Block Size:"
+msgstr "Размер блока:"
+
+msgid "Floppy drives:"
+msgstr "Гибкие диски:"
+
+msgid "Turbo timings"
+msgstr "Турбо тайминги"
+
+msgid "Check BPB"
+msgstr "Проверять BPB"
+
+msgid "CD-ROM drives:"
+msgstr "Дисководы CD-ROM:"
+
+msgid "MO drives:"
+msgstr "Магнитооптические дисководы:"
+
+msgid "ZIP drives:"
+msgstr "ZIP дисководы:"
+
+msgid "ZIP 250"
+msgstr "ZIP 250"
+
+msgid "ISA RTC:"
+msgstr "ISA RTC:"
+
+msgid "ISA Memory Expansion"
+msgstr "Карта расширения памяти ISA"
+
+msgid "Card 1:"
+msgstr "Карта 1:"
+
+msgid "Card 2:"
+msgstr "Карта 2:"
+
+msgid "Card 3:"
+msgstr "Карта 3:"
+
+msgid "Card 4:"
+msgstr "Карта 4:"
+
+msgid "ISABugger device"
+msgstr "Устройство ISABugger"
+
+msgid "POST card"
+msgstr "Карта POST"
+
+msgid "86Box"
+msgstr "86Box"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Fatal error"
+msgstr "Неустранимая ошибка"
+
+msgid " - PAUSED"
+msgstr " - ПАУЗА"
+
+msgid "Press %s to return to windowed mode."
+msgstr "Нажмите %s для возврата в оконный режим."
+
+msgid "Speed"
+msgstr "Скорость"
+
+msgid "ZIP %1 %2 (%3): %4"
+msgstr "ZIP %1 %2 (%3): %4"
+
+msgid "ZIP images"
+msgstr "Образы ZIP"
+
+msgid "86Box could not find any usable ROM images.\n\nPlease <a href=\"https://github.com/86Box/roms/releases/latest\">download</a> a ROM set and extract it into the \"roms\" directory."
+msgstr "86Box не смог найти ни одного подходящего для использования файла с ПЗУ.\n\nПожалуйста <a href=\"https://github.com/86Box/roms/releases/latest\">скачайте</a> набор ПЗУ и извлеките его в каталог \"roms\"."
+
+msgid "(empty)"
+msgstr "(пусто)"
+
+msgid "All files"
+msgstr "Все файлы"
+
+msgid "Turbo"
+msgstr "Турбо"
+
+msgid "On"
+msgstr "Вкл"
+
+msgid "Off"
+msgstr "Выкл"
+
+msgid "All images"
+msgstr "Все образы"
+
+msgid "Basic sector images"
+msgstr "Простые посекторные образы"
+
+msgid "Surface images"
+msgstr "Surface образы"
+
+msgid "Machine \"%hs\" is not available due to missing ROMs in the roms/machines directory. Switching to an available machine."
+msgstr "Системная плата \"%hs\" недоступна из-за отсутствия файла её ПЗУ в каталоге roms/machines. Переключение на доступную системную плату."
+
+msgid "Video card \"%hs\" is not available due to missing ROMs in the roms/video directory. Switching to an available video card."
+msgstr "Видеокарта \"%hs\" недоступна из-за отсутствия файла её ПЗУ в каталоге roms/video. Переключение на доступную видеокарту."
+
+msgid "Video card #2 \"%hs\" is not available due to missing ROMs in the roms/video directory. Disabling the second video card."
+msgstr "Видеокарта 2 \"%hs\" недоступна из-за отсутствия файла её ПЗУ в каталоге roms/video. Вторая видеокарта отключена."
+
+msgid "Device \"%hs\" is not available due to missing ROMs. Ignoring the device."
+msgstr "Устройство \"%hs\" недоступно из-за отсутствия файла его ПЗУ. Устройство проигнорировано."
+
+msgid "Machine"
+msgstr "Компьютер"
+
+msgid "Display"
+msgstr "Дисплей"
+
+msgid "Input devices"
+msgstr "Устройства ввода"
+
+msgid "Sound"
+msgstr "Звук"
+
+msgid "Network"
+msgstr "Сеть"
+
+msgid "Ports (COM & LPT)"
+msgstr "Порты (COM и LPT)"
+
+msgid "Storage controllers"
+msgstr "Контроллеры дисков"
+
+msgid "Hard disks"
+msgstr "Жёсткие диски"
+
+msgid "Floppy & CD-ROM drives"
+msgstr "Гибкие диски и CD-ROM"
+
+msgid "Other removable devices"
+msgstr "Другие съёмные устройства"
+
+msgid "Other peripherals"
+msgstr "Другая периферия"
+
+msgid "Click to capture mouse"
+msgstr "Щёлкните мышью для захвата курсора"
+
+msgid "Press %s to release mouse"
+msgstr "Нажмите %s, чтобы освободить курсор"
+
+msgid "Press %s or middle button to release mouse"
+msgstr "Нажмите %s или среднюю кнопку мыши, чтобы освободить курсор"
+
+msgid "Bus"
+msgstr "Шина"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "C"
+msgstr "C"
+
+msgid "H"
+msgstr "H"
+
+msgid "S"
+msgstr "S"
+
+msgid "KB"
+msgstr "КБ"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "%1 Wait state(s)"
+msgstr "%1 WS"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "No PCap devices found"
+msgstr "Устройства PCap не найдены"
+
+msgid "Invalid PCap device"
+msgstr "Неверное устройство PCap"
+
+msgid "2-axis, 2-button joystick(s)"
+msgstr "2-осевой, 2-кнопочный джойстик"
+
+msgid "2-axis, 4-button joystick"
+msgstr "2-осевой, 4-кнопочный джойстик"
+
+msgid "2-axis, 6-button joystick"
+msgstr "2-осевой, 6-кнопочный джойстик"
+
+msgid "2-axis, 8-button joystick"
+msgstr "2-осевой, 8-кнопочный джойстик"
+
+msgid "3-axis, 2-button joystick"
+msgstr "3-осевой, 2-кнопочный джойстик"
+
+msgid "3-axis, 4-button joystick"
+msgstr "3-осевой, 4-кнопочный джойстик"
+
+msgid "4-axis, 4-button joystick"
+msgstr "4-осевой, 4-кнопочный джойстик"
+
+msgid "CH Flightstick Pro"
+msgstr "CH Flightstick Pro"
+
+msgid "Microsoft SideWinder Pad"
+msgstr "Microsoft SideWinder Pad"
+
+msgid "Thrustmaster Flight Control System"
+msgstr "Система управления полётом Thrustmaster"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "%1 MB (CHS: %2, %3, %4)"
+msgstr "%1 МБ (CHS: %2, %3, %4)"
+
+msgid "Floppy %1 (%2): %3"
+msgstr "Дисковод %1 (%2): %3"
+
+msgid "Advanced sector images"
+msgstr "Расширенные образы секторов"
+
+msgid "Flux images"
+msgstr "Образы Flux"
+
+msgid "Are you sure you want to hard reset the emulated machine?"
+msgstr "Вы уверены, что хотите выполнить холодную перезагрузку эмулируемой машины?"
+
+msgid "Are you sure you want to exit 86Box?"
+msgstr "Вы уверены, что хотите выйти из 86Box?"
+
+msgid "Unable to initialize Ghostscript"
+msgstr "Невозможно инициализировать Ghostscript"
+
+msgid "Unable to initialize GhostPCL"
+msgstr "Невозможно инициализировать GhostPCL"
+
+msgid "MO %1 (%2): %3"
+msgstr "Магнитооптический %1 (%2): %3"
+
+msgid "MO images"
+msgstr "Образы магнитооптических дисков"
+
+msgid "Welcome to 86Box!"
+msgstr "Добро пожаловать в 86Box!"
+
+msgid "Internal device"
+msgstr "Встроенное устройство"
+
+msgid "Exit"
+msgstr "Выход"
+
+msgid "No ROMs found"
+msgstr "ПЗУ не найдены"
+
+msgid "Do you want to save the settings?"
+msgstr "Хотите ли вы сохранить настройки?"
+
+msgid "This will hard reset the emulated machine."
+msgstr "Это приведёт к холодной перезагрузке эмулируемой машины."
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "About 86Box"
+msgstr "О 86Box"
+
+msgid "86Box v"
+msgstr "86Box v"
+
+msgid "An emulator of old computers\n\nAuthors: Miran Grča (OBattler), RichardG867, Jasmine Iwanek, TC1995, coldbrewed, Teemu Korhonen (Manaatti), Joakim L. Gilje, Adrien Moulin (elyosh), Daniel Balsom (gloriouscow), Cacodemon345, Fred N. van Kempen (waltje), Tiseno100, reenigne, and others.\n\nWith previous core contributions from Sarah Walker, leilei, JohnElliott, greatpsycho, and others.\n\nReleased under the GNU General Public License version 2 or later. See LICENSE for more information."
+msgstr "Эмулятор старых компьютеров\n\nАвторы: Miran Grča (OBattler), RichardG867, Jasmine Iwanek, TC1995, coldbrewed, Teemu Korhonen (Manaatti), Joakim L. Gilje, Adrien Moulin (elyosh), Daniel Balsom (gloriouscow), Cacodemon345, Fred N. van Kempen (waltje), Tiseno100, reenigne, and others.\n\nС предыдущими основными материалами от Sarah Walker, leilei, JohnElliott, greatpsycho и других.\n\nВыпускается под лицензией GNU General Public License версии 2 или более поздней. Дополнительную информацию см. в файле LICENSE."
+
+msgid "Hardware not available"
+msgstr "Оборудование недоступно"
+
+msgid "Make sure %1 is installed and that you are on a %1-compatible network connection."
+msgstr "Убедитесь, что %1 установлен и ваше сетевое соединение совместимо с %1."
+
+msgid "Invalid configuration"
+msgstr "Недопустимая конфигурация"
+
+msgid "%1 is required for automatic conversion of PostScript files to PDF.\n\nAny documents sent to the generic PostScript printer will be saved as PostScript (.ps) files."
+msgstr "Для автоматического преобразования файлов PostScript в PDF требуется %1.\n\nВсе документы, отправленные на стандартный принтер PostScript, будут сохранены в виде файлов PostScript (.ps)."
+
+msgid "%1 is required for automatic conversion of PCL files to PDF.\n\nAny documents sent to the generic PCL printer will be saved as Printer Command Language (.pcl) files."
+msgstr "Для автоматического преобразования файлов PCL в PDF требуется %1.\n\nВсе документы, отправленные на стандартный принтер PCL, будут сохранены в виде файлов Printer Command Language (.pcl)."
+
+msgid "Entering fullscreen mode"
+msgstr "Вход в полноэкранный режим"
+
+msgid "Don't show this message again"
+msgstr "Больше не показывать это сообщение"
+
+msgid "Don't exit"
+msgstr "Не выходить"
+
+msgid "Reset"
+msgstr "Перезагрузить"
+
+msgid "Don't reset"
+msgstr "Не перезагружать"
+
+msgid "CD-ROM images"
+msgstr "Образы CD-ROM"
+
+msgid "%1 Device Configuration"
+msgstr "Конфигурация устройства %1"
+
+msgid "Monitor in sleep mode"
+msgstr "Монитор в спящем режиме"
+
+msgid "GLSL shaders"
+msgstr "Шейдеры GLSL"
+
+msgid "You are loading an unsupported configuration"
+msgstr "Вы загружаете неподдерживаемую конфигурацию"
+
+msgid "CPU type filtering based on selected machine is disabled for this emulated machine.\n\nThis makes it possible to choose a CPU that is otherwise incompatible with the selected machine. However, you may run into incompatibilities with the machine BIOS or other software.\n\nEnabling this setting is not officially supported and any bug reports filed may be closed as invalid."
+msgstr "Выбор типов ЦП для этой системной платы на данной эмулируемой машине отключен.\n\nЭто позволяет выбрать процессор, который в противном случае несовместим с выбранной материнской платой. Однако, вы можете столкнуться с несовместимостью с BIOS материнской платы или другим ПО.\n\nВключение этого параметра официально не поддерживается, и все поданные отчеты об ошибках могут быть закрыты как недействительные."
+
+msgid "Continue"
+msgstr "Продолжить"
+
+msgid "Cassette: %1"
+msgstr "Кассета: %1"
+
+msgid "Cassette images"
+msgstr "Образы кассет"
+
+msgid "Cartridge %1: %2"
+msgstr "Картридж %1: %2"
+
+msgid "Cartridge images"
+msgstr "Образы картриджей"
+
+msgid "Resume execution"
+msgstr "Возобновить выполнение"
+
+msgid "Pause execution"
+msgstr "Приостановить выполнение"
+
+msgid "Press Ctrl+Alt+Del"
+msgstr "Нажать Ctrl+Alt+Del"
+
+msgid "Press Ctrl+Alt+Esc"
+msgstr "Нажать Ctrl+Alt+Esc"
+
+msgid "Hard reset"
+msgstr "Холодная перезагрузка"
+
+msgid "ACPI shutdown"
+msgstr "Сигнал завершения ACPI"
+
+msgid "Hard disk (%1)"
+msgstr "Жёсткий диск (%1)"
+
+msgid "MFM/RLL or ESDI CD-ROM drives never existed"
+msgstr "MFM/RLL или ESDI дисководов CD-ROM никогда не существовало"
+
+msgid "Custom..."
+msgstr "Задать вручную..."
+
+msgid "Custom (large)..."
+msgstr "Задать вручную (large)..."
+
+msgid "Add New Hard Disk"
+msgstr "Создать новый жёсткий диск"
+
+msgid "Add Existing Hard Disk"
+msgstr "Выбрать существующий жёсткий диск"
+
+msgid "HDI disk images cannot be larger than 4 GB."
+msgstr "Размер образов дисков HDI не может превышать 4 ГБ."
+
+msgid "Disk images cannot be larger than 127 GB."
+msgstr "Размер образов дисков не может превышать 127 ГБ."
+
+msgid "Hard disk images"
+msgstr "Образы жёстких дисков"
+
+msgid "Unable to read file"
+msgstr "Невозможно прочитать файл"
+
+msgid "Unable to write file"
+msgstr "Невозможно записать файл"
+
+msgid "HDI or HDX images with a sector size other than 512 are not supported."
+msgstr "Образы HDI или HDX с размером сектора, отличным от 512, не поддерживаются."
+
+msgid "Disk image file already exists"
+msgstr "Файл образа диска уже существует"
+
+msgid "Please specify a valid file name."
+msgstr "Пожалуйста, укажите правильное имя файла."
+
+msgid "Disk image created"
+msgstr "Образ диска создан"
+
+msgid "Make sure the file exists and is readable."
+msgstr "Убедитесь, что файл существует и доступен для чтения."
+
+msgid "Make sure the file is being saved to a writable directory."
+msgstr "Убедитесь, что файл сохраняется в директории доступной для записи."
+
+msgid "Disk image too large"
+msgstr "Слишком большой образ диска"
+
+msgid "Remember to partition and format the newly-created drive."
+msgstr "Не забудьте разметить и отформатировать вновь созданный диск."
+
+msgid "The selected file will be overwritten. Are you sure you want to use it?"
+msgstr "Выбранный файл будет перезаписан. Вы уверены, что хотите использовать его?"
+
+msgid "Unsupported disk image"
+msgstr "Неподдерживаемый образ диска"
+
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgid "Don't overwrite"
+msgstr "Не перезаписывать"
+
+msgid "Raw image"
+msgstr "RAW образ"
+
+msgid "HDI image"
+msgstr "Образ HDI"
+
+msgid "HDX image"
+msgstr "Образ HDX"
+
+msgid "Fixed-size VHD"
+msgstr "Образ VHD фиксированного размера"
+
+msgid "Dynamic-size VHD"
+msgstr "Образ VHD динамического размера"
+
+msgid "Differencing VHD"
+msgstr "Дифференцированный образ VHD"
+
+msgid "(N/A)"
+msgstr "(Нет)"
+
+msgid "Raw image (.img)"
+msgstr "RAW образ (.img)"
+
+msgid "HDI image (.hdi)"
+msgstr "Образ HDI (.hdi)"
+
+msgid "HDX image (.hdx)"
+msgstr "Образ HDX (.hdx)"
+
+msgid "Fixed-size VHD (.vhd)"
+msgstr "Образ VHD фиксированного размера (.vhd)"
+
+msgid "Dynamic-size VHD (.vhd)"
+msgstr "Образ VHD динамического размера (.vhd)"
+
+msgid "Differencing VHD (.vhd)"
+msgstr "Дифференцированный образ VHD (.vhd)"
+
+msgid "Large blocks (2 MB)"
+msgstr "Большие блоки (2 МБ)"
+
+msgid "Small blocks (512 KB)"
+msgstr "Маленькие блоки (512 КБ)"
+
+msgid "VHD files"
+msgstr "Файлы VHD"
+
+msgid "Select the parent VHD"
+msgstr "Выберите родительский VHD"
+
+msgid "This could mean that the parent image was modified after the differencing image was created.\n\nIt can also happen if the image files were moved or copied, or by a bug in the program that created this disk.\n\nDo you want to fix the timestamps?"
+msgstr "Это может означать, что родительский образ был изменён после того, как был создан дифференцированный образ.\n\nЭто также может произойти, если файлы образа были перемещены или скопированы, или из-за ошибки в программе, создавшей этот диск.\n\nВы хотите исправить временные метки?"
+
+msgid "Parent and child disk timestamps do not match"
+msgstr "Временные метки родительского и дочернего дисков не совпадают"
+
+msgid "Could not fix VHD timestamp."
+msgstr "Не удалось исправить временную метку VHD."
+
+msgid "MFM/RLL"
+msgstr "MFM/RLL"
+
+msgid "XTA"
+msgstr "XTA"
+
+msgid "ESDI"
+msgstr "ESDI"
+
+msgid "IDE"
+msgstr "IDE"
+
+msgid "ATAPI"
+msgstr "ATAPI"
+
+msgid "CD-ROM %1 (%2): %3"
+msgstr "CD-ROM %1 (%2): %3"
+
+msgid "160 KB"
+msgstr "160 КБ"
+
+msgid "180 KB"
+msgstr "180 КБ"
+
+msgid "320 KB"
+msgstr "320 КБ"
+
+msgid "360 KB"
+msgstr "360 КБ"
+
+msgid "640 KB"
+msgstr "640 КБ"
+
+msgid "720 KB"
+msgstr "720 КБ"
+
+msgid "1.2 MB"
+msgstr "1.2 МБ"
+
+msgid "1.25 MB"
+msgstr "1.25 МБ"
+
+msgid "1.44 MB"
+msgstr "1.44 МБ"
+
+msgid "DMF (cluster 1024)"
+msgstr "DMF (кластер 1024)"
+
+msgid "DMF (cluster 2048)"
+msgstr "DMF (кластер 2048)"
+
+msgid "2.88 MB"
+msgstr "2.88 МБ"
+
+msgid "ZIP 100"
+msgstr "ZIP 100"
+
+msgid "3.5\" 128 MB (ISO 10090)"
+msgstr "3.5\" 128 МБ (ISO 10090)"
+
+msgid "3.5\" 230 MB (ISO 13963)"
+msgstr "3.5\" 230 МБ (ISO 13963)"
+
+msgid "3.5\" 540 MB (ISO 15498)"
+msgstr "3.5\" 540 МБ (ISO 15498)"
+
+msgid "3.5\" 640 MB (ISO 15498)"
+msgstr "3.5\" 640 МБ (ISO 15498)"
+
+msgid "3.5\" 1.3 GB (GigaMO)"
+msgstr "3.5\" 1.3 ГБ (GigaMO)"
+
+msgid "3.5\" 2.3 GB (GigaMO 2)"
+msgstr "3.5\" 2.3 ГБ (GigaMO 2)"
+
+msgid "5.25\" 600 MB"
+msgstr "5.25\" 600 МБ"
+
+msgid "5.25\" 650 MB"
+msgstr "5.25\" 650 МБ"
+
+msgid "5.25\" 1 GB"
+msgstr "5.25\" 1 ГБ"
+
+msgid "5.25\" 1.3 GB"
+msgstr "5.25\" 1.3 ГБ"
+
+msgid "Perfect RPM"
+msgstr "Точный RPM"
+
+msgid "1% below perfect RPM"
+msgstr "На 1% медленнее точного RPM"
+
+msgid "1.5% below perfect RPM"
+msgstr "На 1.5% медленнее точного RPM"
+
+msgid "2% below perfect RPM"
+msgstr "На 2% медленнее точного RPM"
+
+msgid "(System Default)"
+msgstr "(Системный)"
+
+msgid "Failed to initialize network driver"
+msgstr "Не удалось инициализировать сетевой драйвер"
+
+msgid "The network configuration will be switched to the null driver"
+msgstr "Сетевая конфигурация будет переключена на нулевой драйвер"
+
+msgid "Mouse sensitivity:"
+msgstr "Чувствительность мыши:"
+
+msgid "Select media images from program working directory"
+msgstr "Выбор медиа-образов из рабочего каталога программы"
+
+msgid "PIT mode:"
+msgstr "Режим PIT:"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Slow"
+msgstr "Медленный"
+
+msgid "Fast"
+msgstr "Быстрый"
+
+msgid "&Auto-pause on focus loss"
+msgstr "&Автопауза при потере фокуса"
+
+msgid "WinBox is no longer supported"
+msgstr "WinBox больше не поддерживается"
+
+msgid "Development of the WinBox manager stopped in 2022 due to a lack of maintainers. As we direct our efforts towards making 86Box even better, we have made the decision to no longer support WinBox as a manager.\n\nNo further updates will be provided through WinBox, and you may encounter incorrect behavior should you continue using it with newer versions of 86Box. Any bug reports related to WinBox behavior will be closed as invalid.\n\nGo to 86box.net for a list of other managers you can use."
+msgstr "Разработка менеджера WinBox прекратилась в 2022 году из-за отсутствия сопровождающих. Поскольку мы направляем наши усилия на то, чтобы сделать 86Box еще лучше, мы приняли решение больше не поддерживать WinBox в качестве менеджера.\n\nWinBox больше не будет обновляться, и вы можете столкнуться с некорректным поведением, если продолжите использовать его с новыми версиями 86Box. Любые сообщения об ошибках, связанных с поведением WinBox, будут закрыты как недействительные.\n\nПерейдите на сайт 86box.net для получения списка других менеджеров, которые вы можете использовать."
+
+msgid "Generate"
+msgstr "Создать"
+
+msgid "Joystick configuration"
+msgstr "Конфигурация джойстика"
+
+msgid "Device"
+msgstr "Устройство"
+
+msgid "%1 (X axis)"
+msgstr "%1 (ось X)"
+
+msgid "%1 (Y axis)"
+msgstr "%1 (ось Y)"
+
+msgid "MCA devices"
+msgstr "Устройства MCA"
+
+msgid "List of MCA devices:"
+msgstr "Список устройств MCA:"
+
+msgid "Tablet tool"
+msgstr "Планшетный инструмент"
+
+msgid "Qt (OpenGL &ES)"
+msgstr "Qt (OpenGL &ES)"
+
+msgid "About Qt"
+msgstr "О Qt"
+
+msgid "MCA devices..."
+msgstr "Устройства MCA..."
+
+msgid "Show non-primary monitors"
+msgstr "&Показывать неосновные мониторы"
+
+msgid "Open screenshots folder..."
+msgstr "Открыть папку скриншотов..."
+
+msgid "Apply fullscreen stretch mode when maximized"
+msgstr "Применить полноэкранный режим растяжения при разворачивании окна"
+
+msgid "Cursor/Puck"
+msgstr "Курсор/шайба"
+
+msgid "Pen"
+msgstr "Ручка"
+
+msgid "Host CD/DVD Drive (%1:)"
+msgstr "CD/DVD-привод хоста (%1:)"
+
+msgid "&Connected"
+msgstr "&Кабель подключен"
+
+msgid "Clear image history"
+msgstr "Очистить историю образов"
+
+msgid "Create..."
+msgstr "Создать..."
+
+msgid "Host CD/DVD Drive (%1)"
+msgstr "CD/DVD-привод хоста (%1)"
+
+msgid "Unknown Bus"
+msgstr "Неизвестная шина"
+
+msgid "Null Driver"
+msgstr "Нулевой драйвер"
+
+msgid "NIC %1 (%2) %3"
+msgstr "NIC %1 (%2) %3"
+
+msgid "Render behavior"
+msgstr "Режим рендеринга"
+
+msgid "Use target framerate:"
+msgstr "Использовать целевую частоту кадров:"
+
+msgid " fps"
+msgstr " fps"
+
+msgid "VSync"
+msgstr "Вертикальная синхронизация"
+
+msgid "Synchronize with video"
+msgstr "Синхронизировать с видео"
+
+msgid "Shaders"
+msgstr "Шейдеры"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Browse..."
+msgstr "Обзор..."
+
+msgid "Couldn't create OpenGL context."
+msgstr "Не удалось создать контекст OpenGL."
+
+msgid "Couldn't switch to OpenGL context."
+msgstr "Не удалось переключиться на контекст OpenGL."
+
+msgid "OpenGL version 3.0 or greater is required. Current version is %1.%2"
+msgstr "Требуется OpenGL версии 3.0 или выше. Текущая версия %1.%2"
+
+msgid "Error initializing OpenGL"
+msgstr "Ошибка инициализации OpenGL"
+
+msgid "\nFalling back to software rendering."
+msgstr "\nПереключение на программный рендеринг."
+
+msgid "&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When selecting media images (CD-ROM, floppy, etc.) the open dialog will start in the same directory as the 86Box configuration file. This setting will likely only make a difference on macOS.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+msgstr "&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;При выборе образов носителей (CD-ROM, дискет и т. д.) диалог открытия будет запускаться в том же каталоге, что и файл конфигурации 86Box. Эта настройка, скорее всего, будет иметь значение только на macOS.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+
+msgid "This machine might have been moved or copied."
+msgstr "Возможно, эта машина была перемещена или скопирована."
+
+msgid "In order to ensure proper networking functionality, 86Box needs to know if this machine was moved or copied.\n\nSelect \"I Copied It\" if you are not sure."
+msgstr "Чтобы обеспечить правильную работу сети, 86Box должен знать, была ли эта машина перемещена или скопирована.\n\nЕсли вы не уверены, выберите \"Скопирована\"."
+
+msgid "I Moved It"
+msgstr "Перемещена"
+
+msgid "I Copied It"
+msgstr "Скопирована"
+
+msgid "86Box Monitor #"
+msgstr "86Box Monitor #"
+
+msgid "No MCA devices."
+msgstr "Нет устройств MCA."
+
+msgid "MiB"
+msgstr "МиБ"
+
+msgid "Network Card #1"
+msgstr "Сетевая карта 1"
+
+msgid "Network Card #2"
+msgstr "Сетевая карта 2"
+
+msgid "Network Card #3"
+msgstr "Сетевая карта 3"
+
+msgid "Network Card #4"
+msgstr "Сетевая карта 4"
+
+msgid "Mode:"
+msgstr "Режим:"
+
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+msgid "Adapter:"
+msgstr "Адаптер:"
+
+msgid "VDE Socket:"
+msgstr "VDE сокет:"
+
+msgid "86Box Unit Tester"
+msgstr "Модульный Тестер 86Box"
+
+msgid "Novell NetWare 2.x Key Card"
+msgstr "Карта ключей Novell NetWare 2.x"
+
+msgid "Serial port passthrough 1"
+msgstr "Сквозной последовательный порт COM1"
+
+msgid "Serial port passthrough 2"
+msgstr "Сквозной последовательный порт COM2"
+
+msgid "Serial port passthrough 3"
+msgstr "Сквозной последовательный порт COM3"
+
+msgid "Serial port passthrough 4"
+msgstr "Сквозной последовательный порт COM4"
+
+msgid "Renderer options..."
+msgstr "Параметры рендеринга..."
+
+msgid "Logitech/Microsoft Bus Mouse"
+msgstr "Bus-мышь Logitech/Microsoft"
+
+msgid "Microsoft Bus Mouse (InPort)"
+msgstr "Bus-мышь Microsoft (InPort)"
+
+msgid "Mouse Systems Serial Mouse"
+msgstr "COM-мышь Mouse Systems"
+
+msgid "Microsoft Serial Mouse"
+msgstr "COM-мышь Microsoft"
+
+msgid "Logitech Serial Mouse"
+msgstr "COM-мышь Logitech"
+
+msgid "PS/2 Mouse"
+msgstr "Мышь PS/2"
+
+msgid "3M MicroTouch (Serial)"
+msgstr "3M MicroTouch (последовательный)"
+
+msgid "[COM] Standard Hayes-compliant Modem"
+msgstr "[COM] Стандартный Hayes-совместимый модем"
+
+msgid "Roland MT-32 Emulation"
+msgstr "Эмуляция Roland MT-32"
+
+msgid "Roland MT-32 (New) Emulation"
+msgstr "Эмуляция Roland MT-32 (Новый)"
+
+msgid "Roland CM-32L Emulation"
+msgstr "Эмуляция Roland CM-32L"
+
+msgid "Roland CM-32LN Emulation"
+msgstr "Эмуляция Roland CM-32LN"
+
+msgid "OPL4-ML Daughterboard"
+msgstr "Дочерняя плата OPL4-ML"
+
+msgid "System MIDI"
+msgstr "Системный MIDI"
+
+msgid "MIDI Input Device"
+msgstr "Устройство ввода MIDI"
+
+msgid "BIOS Address"
+msgstr "Адрес BIOS"
+
+msgid "Enable BIOS extension ROM Writes"
+msgstr "Разрешить запись в ПЗУ расширения BIOS"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "IRQ"
+msgstr "IRQ"
+
+msgid "BIOS Revision"
+msgstr "Версия BIOS"
+
+msgid "Translate 26 -> 17"
+msgstr "Переводить 26 -> 17"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Enable backlight"
+msgstr "Включить подсветку"
+
+msgid "Invert colors"
+msgstr "Инвертировать цвета"
+
+msgid "BIOS size"
+msgstr "Размер BIOS"
+
+msgid "Map C0000-C7FFF as UMB"
+msgstr "Отображение C0000-C7FFF в качестве UMB"
+
+msgid "Map C8000-CFFFF as UMB"
+msgstr "Отображение C8000-CFFFF в качестве UMB"
+
+msgid "Map D0000-D7FFF as UMB"
+msgstr "Отображение D0000-D7FFF в качестве UMB"
+
+msgid "Map D8000-DFFFF as UMB"
+msgstr "Отображение D8000-DFFFF в качестве UMB"
+
+msgid "Map E0000-E7FFF as UMB"
+msgstr "Отображение E0000-E7FFF в качестве UMB"
+
+msgid "Map E8000-EFFFF as UMB"
+msgstr "Отображение E8000-EFFFF в качестве UMB"
+
+msgid "JS9 Jumper (JIM)"
+msgstr "Джампер JS9 (JIM)"
+
+msgid "MIDI Output Device"
+msgstr "Устройство вывода MIDI"
+
+msgid "MIDI Real time"
+msgstr "MIDI в реальном времени"
+
+msgid "MIDI Thru"
+msgstr "Пропускание MIDI-входа"
+
+msgid "MIDI Clockout"
+msgstr "MIDI Clockout"
+
+msgid "SoundFont"
+msgstr "SoundFont"
+
+msgid "Output Gain"
+msgstr "Усиление выхода"
+
+msgid "Chorus"
+msgstr "Хорус"
+
+msgid "Chorus Voices"
+msgstr "Голоса хоруса"
+
+msgid "Chorus Level"
+msgstr "Уровень хоруса"
+
+msgid "Chorus Speed"
+msgstr "Скорость хоруса"
+
+msgid "Chorus Depth"
+msgstr "Глубина хоруса"
+
+msgid "Chorus Waveform"
+msgstr "Форма волны хоруса"
+
+msgid "Reverb"
+msgstr "Реверберация"
+
+msgid "Reverb Room Size"
+msgstr "Размер комнаты реверберации"
+
+msgid "Reverb Damping"
+msgstr "Демпфирование реверберации"
+
+msgid "Reverb Width"
+msgstr "Ширина реверберации"
+
+msgid "Reverb Level"
+msgstr "Уровень реверберации"
+
+msgid "Interpolation Method"
+msgstr "Метод интерполяции"
+
+msgid "Reverb Output Gain"
+msgstr "Усиление выходного сигнала ревербератора"
+
+msgid "Reversed stereo"
+msgstr "Реверс стерео"
+
+msgid "Nice ramp"
+msgstr "Улучшение рампы"
+
+msgid "Hz"
+msgstr "Гц"
+
+msgid "Buttons"
+msgstr "Кнопки"
+
+msgid "Serial Port"
+msgstr "Последовательный порт"
+
+msgid "RTS toggle"
+msgstr "Переключатель RTS"
+
+msgid "Revision"
+msgstr "Версия"
+
+msgid "Controller"
+msgstr "Контроллер"
+
+msgid "Show Crosshair"
+msgstr "Показать перекрестие"
+
+msgid "DMA"
+msgstr "DMA"
+
+msgid "MAC Address"
+msgstr "MAC-адрес"
+
+msgid "MAC Address OUI"
+msgstr "OUI MAC-адреса"
+
+msgid "Enable BIOS"
+msgstr "Включить BIOS"
+
+msgid "Baud Rate"
+msgstr "Скорость передачи данных"
+
+msgid "TCP/IP listening port"
+msgstr "Порт прослушивания TCP/IP"
+
+msgid "Phonebook File"
+msgstr "Файл телефонной книги"
+
+msgid "Telnet emulation"
+msgstr "Эмуляция Telnet"
+
+msgid "RAM Address"
+msgstr "Адрес оперативной памяти"
+
+msgid "RAM size"
+msgstr "Размер оперативной памяти"
+
+msgid "Initial RAM size"
+msgstr "Начальный размер оперативной памяти"
+
+msgid "Serial Number"
+msgstr "Серийный номер"
+
+msgid "Host ID"
+msgstr "Идентификатор хоста"
+
+msgid "FDC Address"
+msgstr "Адрес FDC"
+
+msgid "MPU-401 Address"
+msgstr "Адрес MPU-401"
+
+msgid "MPU-401 IRQ"
+msgstr "IRQ MPU-401"
+
+msgid "Receive MIDI input"
+msgstr "Включить MIDI-вход"
+
+msgid "Low DMA"
+msgstr "Низкий DMA"
+
+msgid "Enable Game port"
+msgstr "Включить игровой порт"
+
+msgid "Surround module"
+msgstr "Модуль объемного звучания"
+
+msgid "CODEC"
+msgstr "Кодек"
+
+msgid "Raise CODEC interrupt on CODEC setup (needed by some drivers)"
+msgstr "Поднимать прерывание кодека при настройке кодека (необходимо некоторым драйверам)"
+
+msgid "SB Address"
+msgstr "Адрес SB"
+
+msgid "WSS IRQ"
+msgstr "IRQ WSS"
+
+msgid "WSS DMA"
+msgstr "DMA WSS"
+
+msgid "Enable OPL"
+msgstr "Включить OPL"
+
+msgid "Receive MIDI input (MPU-401)"
+msgstr "Включить MIDI-вход (MPU-401)"
+
+msgid "SB low DMA"
+msgstr "Низкий DMA SB"
+
+msgid "6CH variant (6-channel)"
+msgstr "Вариант 6CH (6-канальный)"
+
+msgid "Enable CMS"
+msgstr "Включить CMS"
+
+msgid "Mixer"
+msgstr "Микшер"
+
+msgid "High DMA"
+msgstr "Высокий DMA"
+
+msgid "Control PC speaker"
+msgstr "Управление динамиком ПК"
+
+msgid "Memory size"
+msgstr "Размер памяти"
+
+msgid "EMU8000 Address"
+msgstr "Адрес EMU8000"
+
+msgid "IDE Controller"
+msgstr "Контроллер IDE"
+
+msgid "Codec"
+msgstr "Кодек"
+
+msgid "GUS type"
+msgstr "Тип GUS"
+
+msgid "Enable 0x04 \"Exit 86Box\" command"
+msgstr "Включить команду 0x04 \"Выход из 86Box\""
+
+msgid "Display type"
+msgstr "Тип дисплея"
+
+msgid "Composite type"
+msgstr "Тип композитного видео"
+
+msgid "RGB type"
+msgstr "Тип видео RGB"
+
+msgid "Line doubling type"
+msgstr "Тип удвоения линии"
+
+msgid "Snow emulation"
+msgstr "Эмуляция снега"
+
+msgid "Monitor type"
+msgstr "Тип монитора"
+
+msgid "Character set"
+msgstr "Набор символов"
+
+msgid "XGA type"
+msgstr "Тип XGA"
+
+msgid "Instance"
+msgstr "Экземпляр"
+
+msgid "MMIO Address"
+msgstr "Адрес MMIO"
+
+msgid "RAMDAC type"
+msgstr "Тип RAMDAC"
+
+msgid "Blend"
+msgstr "Смесь"
+
+msgid "Bilinear filtering"
+msgstr "Билинейная фильтрация"
+
+msgid "Dithering"
+msgstr "Дизеринг"
+
+msgid "Enable NMI for CGA emulation"
+msgstr "Включение NMI для эмуляции CGA"
+
+msgid "Voodoo type"
+msgstr "Тип Voodoo"
+
+msgid "Framebuffer memory size"
+msgstr "Размер памяти фреймбуфера"
+
+msgid "Texture memory size"
+msgstr "Размер памяти текстур"
+
+msgid "Dither subtraction"
+msgstr "Вычитание дизеринга"
+
+msgid "Screen Filter"
+msgstr "Экранный фильтр"
+
+msgid "Render threads"
+msgstr "Потоки рендеринга"
+
+msgid "SLI"
+msgstr "SLI"
+
+msgid "Start Address"
+msgstr "Стартовый адрес"
+
+msgid "Contiguous Size"
+msgstr "Смежный размер"
+
+msgid "I/O Width"
+msgstr "Ширина ввода/вывода"
+
+msgid "Transfer Speed"
+msgstr "Скорость передачи данных"
+
+msgid "EMS mode"
+msgstr "Режим EMS"
+
+msgid "Address for > 2 MB"
+msgstr "Адрес для > 2 МБ"
+
+msgid "Frame Address"
+msgstr "Адрес кадра"
+
+msgid "USA"
+msgstr "США"
+
+msgid "Danish"
+msgstr "Датский"
+
+msgid "Always at selected speed"
+msgstr "Всегда на выбранной скорости"
+
+msgid "BIOS setting + Hotkeys (off during POST)"
+msgstr "Настройка BIOS + горячие клавиши (отключается во время POST)"
+
+msgid "64 kB starting from F0000"
+msgstr "64 кБ, начиная с F0000"
+
+msgid "128 kB starting from E0000 (address MSB inverted, last 64KB first)"
+msgstr "128 кБ, начиная с E0000 (адрес MSB инвертирован, сначала последние 64 КБ)"
+
+msgid "Sine"
+msgstr "Синусоидальная"
+
+msgid "Triangle"
+msgstr "Треугольная"
+
+msgid "Linear"
+msgstr "Линейный"
+
+msgid "4th Order"
+msgstr "4-го порядка"
+
+msgid "7th Order"
+msgstr "7-го порядка"
+
+msgid "Non-timed (original)"
+msgstr "Без таймера (оригинал)"
+
+msgid "45 Hz (JMP2 not populated)"
+msgstr "45 Гц (без джампера на JMP2)"
+
+msgid "Two"
+msgstr "Два"
+
+msgid "Three"
+msgstr "Три"
+
+msgid "Wheel"
+msgstr "Колесо"
+
+msgid "Five + Wheel"
+msgstr "Пять + колесо"
+
+msgid "Five + 2 Wheels"
+msgstr "Пять + 2 колеса"
+
+msgid "A3 - SMT2 Serial / SMT3(R)V"
+msgstr "A3 - SMT2 последовательная / SMT3(R)V"
+
+msgid "Q1 - SMT3(R) Serial"
+msgstr "Q1 - SMT3(R) последовательная"
+
+msgid "8 KB"
+msgstr "8 КБ"
+
+msgid "32 KB"
+msgstr "32 КБ"
+
+msgid "16 KB"
+msgstr "16 КБ"
+
+msgid "64 KB"
+msgstr "64 КБ"
+
+msgid "Disable BIOS"
+msgstr "Отключить BIOS"
+
+msgid "512 KB"
+msgstr "512 КБ"
+
+msgid "2 MB"
+msgstr "2 МБ"
+
+msgid "8 MB"
+msgstr "8 МБ"
+
+msgid "28 MB"
+msgstr "28 МБ"
+
+msgid "1 MB"
+msgstr "1 МБ"
+
+msgid "4 MB"
+msgstr "4 МБ"
+
+msgid "12 MB"
+msgstr "12 МБ"
+
+msgid "16 MB"
+msgstr "16 МБ"
+
+msgid "20 MB"
+msgstr "20 МБ"
+
+msgid "24 MB"
+msgstr "24 МБ"
+
+msgid "SigmaTel STAC9721T (stereo)"
+msgstr "SigmaTel STAC9721T (стерео)"
+
+msgid "Classic"
+msgstr "Классический"
+
+msgid "256 KB"
+msgstr "256 КБ"
+
+msgid "Composite"
+msgstr "Композитное видео"
+
+msgid "Old"
+msgstr "Старый"
+
+msgid "New"
+msgstr "Новый"
+
+msgid "Color (generic)"
+msgstr "Цветной (стандартный)"
+
+msgid "Green Monochrome"
+msgstr "Зелёный монохромный"
+
+msgid "Amber Monochrome"
+msgstr "Янтарный монохромный"
+
+msgid "Gray Monochrome"
+msgstr "Серый монохромный"
+
+msgid "Color (no brown)"
+msgstr "Цветной (без коричневого)"
+
+msgid "Color (IBM 5153)"
+msgstr "Цветной (IBM 5153)"
+
+msgid "Simple doubling"
+msgstr "Простое удвоение"
+
+msgid "sRGB interpolation"
+msgstr "Интерполяция sRGB"
+
+msgid "Linear interpolation"
+msgstr "Линейная интерполяция"
+
+msgid "128 KB"
+msgstr "128 КБ"
+
+msgid "Monochrome (5151/MDA) (white)"
+msgstr "Монохромный (5151/MDA) (белый)"
+
+msgid "Monochrome (5151/MDA) (green)"
+msgstr "Монохромный (5151/MDA) (зелёный)"
+
+msgid "Monochrome (5151/MDA) (amber)"
+msgstr "Монохромный (5151/MDA) (янтарный)"
+
+msgid "Color 40x25 (5153/CGA)"
+msgstr "Цветной 40x25 (5153/CGA)"
+
+msgid "Color 80x25 (5153/CGA)"
+msgstr "Цветной 80x25 (5153/CGA)"
+
+msgid "Enhanced Color - Normal Mode (5154/ECD)"
+msgstr "Улучшенный цветной - нормальный режим (5154/ECD)"
+
+msgid "Enhanced Color - Enhanced Mode (5154/ECD)"
+msgstr "Улучшенный цветной - улучшенный режим (5154/ECD)"
+
+msgid "Green"
+msgstr "Зелёный"
+
+msgid "Amber"
+msgstr "Янтарный"
+
+msgid "Gray"
+msgstr "Серый"
+
+msgid "Color"
+msgstr "Цветной"
+
+msgid "U.S. English"
+msgstr "Английский США"
+
+msgid "Scandinavian"
+msgstr "Скандинавский"
+
+msgid "Other languages"
+msgstr "Другие языки"
+
+msgid "Bochs latest"
+msgstr "Bochs последний"
+
+msgid "Mono Non-Interlaced"
+msgstr "Монохромный без чересстрочной развёртки"
+
+msgid "Color Interlaced"
+msgstr "Цветной с чересстрочной развёрткой"
+
+msgid "Color Non-Interlaced"
+msgstr "Цветной без чересстрочной развёртки"
+
+msgid "3Dfx Voodoo Graphics"
+msgstr "Ускоритель 3Dfx Voodoo"
+
+msgid "Obsidian SB50 + Amethyst (2 TMUs)"
+msgstr "Obsidian SB50 + Amethyst (2 TMU)"
+
+msgid "8-bit"
+msgstr "8-бит"
+
+msgid "16-bit"
+msgstr "16-бит"
+
+msgid "Standard (150ns)"
+msgstr "Стандартный (150 нс)"
+
+msgid "High-Speed (120ns)"
+msgstr "Высокоскоростной (120 нс)"
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "High-Speed"
+msgstr "Высокоскоростной"
+
+msgid "Stereo LPT DAC"
+msgstr "Стереофонический ЦАП LPT"
+
+msgid "Generic Text Printer"
+msgstr "Стандартный текстовый принтер"
+
+msgid "Generic ESC/P Dot-Matrix Printer"
+msgstr "Стандартный матричный принтер ESC/P"
+
+msgid "Generic PostScript Printer"
+msgstr "Стандартный принтер PostScript"
+
+msgid "Generic PCL5e Printer"
+msgstr "Стандартный принтер PCL5e"
+
+msgid "Parallel Line Internet Protocol"
+msgstr "Parallel Line Internet Protocol"
+
+msgid "Protection Dongle for Savage Quest"
+msgstr "Защитный донгл для Savage Quest"
+
+msgid "Serial Passthrough Device"
+msgstr "Устройство проброса через последовательный порт"
+
+msgid "Passthrough Mode"
+msgstr "Режим проброса"
+
+msgid "Host Serial Device"
+msgstr "Последовательное устройство хоста"
+
+msgid "Name of pipe"
+msgstr "Название пайпа"
+
+msgid "Data bits"
+msgstr "Биты данных"
+
+msgid "Stop bits"
+msgstr "Стоп-биты"
+
+msgid "Baud Rate of Passthrough"
+msgstr "Скорость передачи данных через канал"
+
+msgid "Named Pipe (Server)"
+msgstr "Именованный пайп (Сервер)"
+
+msgid "Host Serial Passthrough"
+msgstr "Последовательный порт хоста"
+
+msgid "E&ject %1"
+msgstr "И&звлечь %1"
+
+msgid "&Unmute"
+msgstr "В&ключить звук"
+
+msgid "Softfloat FPU"
+msgstr "Softfloat FPU"
+
+msgid "High performance impact"
+msgstr "Сильное влияние на производительность"
+
+msgid "[Generic] RAM Disk (max. speed)"
+msgstr "[Стандартный] RAM-диск (макс. скорость)"
+
+msgid "[Generic] 1989 (3500 RPM)"
+msgstr "[Стандартный] 1989 (3500 RPM)"
+
+msgid "[Generic] 1992 (3600 RPM)"
+msgstr "[Стандартный] 1992 (3600 RPM)"
+
+msgid "[Generic] 1994 (4500 RPM)"
+msgstr "[Стандартный] 1994 (4500 RPM)"
+
+msgid "[Generic] 1996 (5400 RPM)"
+msgstr "[Стандартный] 1996 (5400 RPM)"
+
+msgid "[Generic] 1997 (5400 RPM)"
+msgstr "[Стандартный] 1997 (5400 RPM)"
+
+msgid "[Generic] 1998 (5400 RPM)"
+msgstr "[Стандартный] 1998 (5400 RPM)"
+
+msgid "[Generic] 2000 (7200 RPM)"
+msgstr "[Стандартный] 2000 (7200 RPM)"
+
+msgid "IBM 8514/A clone (ISA)"
+msgstr "Клон IBM 8514/A (ISA)"
+
+msgid "Vendor"
+msgstr "Производитель"
+
+msgid "30 Hz (JMP2 = 1)"
+msgstr "30 Гц (JMP2 = 1)"
+
+msgid "60 Hz (JMP2 = 2)"
+msgstr "60 Гц (JMP2 = 2)"
+
+msgid "Generic PC/XT Memory Expansion"
+msgstr "Стандартное расширение памяти PC/XT"
+
+msgid "Generic PC/AT Memory Expansion"
+msgstr "Стандартное расширение памяти PC/AT"
+
+msgid "Unable to find Dot-Matrix fonts"
+msgstr "Невозможно найти матричные шрифты"
+
+msgid "TrueType fonts in the \"roms/printer/fonts\" directory are required for the emulation of the Generic ESC/P Dot-Matrix Printer."
+msgstr "Шрифты TrueType в каталоге \"roms/printer/fonts\" необходимы для эмуляции стандартного матричного принтера ESC/P."
+
+msgid "Inhibit multimedia keys"
+msgstr "Перехватывать мультимедиа-клавиши"
+
+msgid "Ask for confirmation before saving settings"
+msgstr "Запрашивать подтверждение перед сохранением настроек"
+
+msgid "Ask for confirmation before hard resetting"
+msgstr "Запрашивать подтверждение перед холодной перезагрузкой"
+
+msgid "Ask for confirmation before quitting"
+msgstr "Запрашивать подтверждение перед выходом"
+
+msgid "Display hotkey message when entering full-screen mode"
+msgstr "Показывать сообщение о горячей клавише при входе в полноэкранный режим"
+
+msgid "Options"
+msgstr "Параметры"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "Model:"
+msgstr "Модель:"
+
+msgid "Failed to initialize Vulkan renderer."
+msgstr "Не удалось инициализировать рендерер Vulkan."
+
+msgid "GLSL Error"
+msgstr "Ошибка GLSL"
+
+msgid "Could not load shader: %1"
+msgstr "Не удалось загрузить шейдер: %1"
+
+msgid "OpenGL version 3.0 or greater is required. Current GLSL version is %1.%2"
+msgstr "Требуется OpenGL версии 3.0 или выше. Текущая версия GLSL %1.%2"
+
+msgid "Could not load texture: %1"
+msgstr "Не удалось загрузить текстуру: %1"
+
+msgid "Could not compile shader:\n\n%1"
+msgstr "Не удалось скомпилировать шейдер:\n\n%1"
+
+msgid "Program not linked:\n\n%1"
+msgstr "Не удалось скомпоновать шейдер:\n\n%1"
+
+msgid "Shader Manager"
+msgstr "Управление шейдерами"
+
+msgid "Shader Configuration"
+msgstr "Конфигурация шейдера"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Move up"
+msgstr "Вверх"
+
+msgid "Move down"
+msgstr "Вниз"
+
+msgid "Could not load file %1"
+msgstr "Не удалось загрузить файл %1"
+
+msgid "Key Bindings:"
+msgstr "Привязки клавиш:"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Keybind"
+msgstr "Привязка клавиш"
+
+msgid "Clear binding"
+msgstr "Очистить привязку"
+
+msgid "Bind"
+msgstr "Привязка"
+
+msgid "Bind Key"
+msgstr "Привязать клавишу"
+
+msgid "Enter key combo:"
+msgstr "Введите комбинацию клавиш:"
+
+msgid "Send Control+Alt+Del"
+msgstr "Отправить Control+Alt+Del"
+
+msgid "Send Control+Alt+Escape"
+msgstr "Отправить Control+Alt+Escape"
+
+msgid "Toggle fullscreen"
+msgstr "Переключить на полноэкранный режим"
+
+msgid "Screenshot"
+msgstr "Скриншот"
+
+msgid "Release mouse pointer"
+msgstr "Отпустить указатель мыши"
+
+msgid "Toggle pause"
+msgstr "Переключить паузу"
+
+msgid "Toggle mute"
+msgstr "Переключить беззвучный режим"

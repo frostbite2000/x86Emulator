@@ -53,6 +53,33 @@ MachineSettingsPage::~MachineSettingsPage()
 {
 }
 
+void MachineSettingsPage::onCpuBackendChanged(int index)
+{
+    QString backend = m_cpuBackendCombo->currentData().toString();
+    
+    QLabel* infoLabel = new QLabel(this);
+    infoLabel->setWordWrap(true);
+    
+    if (backend == "mame") {
+        infoLabel->setText(tr("MAME CPU backend: Generally faster with advanced features like "
+                              "dynamic recompilation, but may have compatibility issues with some software."));
+    } else if (backend == "86box") {
+        infoLabel->setText(tr("86Box CPU backend: Highly accurate with excellent compatibility, "
+                              "but may be slower for some operations."));
+    }
+    
+    // Find the existing info label if any and replace it
+    for (int i = 0; i < m_cpuBackendGroup->layout()->count(); ++i) {
+        QWidget* widget = m_cpuBackendGroup->layout()->itemAt(i)->widget();
+        if (widget && widget != m_cpuBackendCombo) {
+            widget->deleteLater();
+        }
+    }
+    
+    // Add the new info label
+    static_cast<QVBoxLayout*>(m_cpuBackendGroup->layout())->addWidget(infoLabel);
+}
+
 void MachineSettingsPage::setupUi()
 {
     QVBoxLayout* mainLayout = new QVBoxLayout(this);
@@ -75,7 +102,27 @@ void MachineSettingsPage::setupUi()
     m_configureButton->setFixedWidth(100);
     connect(m_configureButton, &QPushButton::clicked, this, &MachineSettingsPage::onConfigureClicked);
     machineLayout->addWidget(m_configureButton);
-    
+   
+    // CPU Backend group
+    m_cpuBackendGroup = new QGroupBox(tr("CPU Backend"), this);
+    QVBoxLayout* cpuBackendLayout = new QVBoxLayout(m_cpuBackendGroup);
+
+    m_cpuBackendCombo = new QComboBox(m_cpuBackendGroup);
+    m_cpuBackendCombo->addItem("MAME (Default)", "mame");
+    m_cpuBackendCombo->addItem("86Box", "86box");
+    m_cpuBackendCombo->setToolTip(tr("Select CPU emulation backend. MAME backend is generally faster, while 86Box backend may offer better compatibility."));
+
+    cpuBackendLayout->addWidget(m_cpuBackendCombo);
+
+    connect(m_cpuBackendCombo, QOverload<int>::of(&QComboBox::currentIndexChanged), 
+            this, &MachineSettingsPage::onCpuBackendChanged);
+
+    // Call it once to initialize
+    onCpuBackendChanged(m_cpuBackendCombo->currentIndex());
+
+    // Add to the main layout after the memory controls
+    formLayout->addRow("", m_cpuBackendGroup);
+
     formLayout->addRow(tr("Machine:"), machineLayout);
     
     // CPU Type combobox
@@ -348,6 +395,13 @@ void MachineSettingsPage::load()
 {
     ConfigManager* config = m_emulator->getConfigManager();
     
+    // Load CPU backend
+    m_origCpuBackend = m_configManager->getString("cpu", "backend", "mame");
+    int backendIndex = m_cpuBackendCombo->findData(m_origCpuBackend);
+    if (backendIndex >= 0) {
+        m_cpuBackendCombo->setCurrentIndex(backendIndex);
+    }
+
     // Load machine type
     m_origMachineType = config->getString("machine", "type", "[1979] 8088");
     int machineTypeIndex = m_machineTypeCombo->findText(m_origMachineType);
@@ -436,7 +490,7 @@ void MachineSettingsPage::load()
 void MachineSettingsPage::apply()
 {
     ConfigManager* config = m_emulator->getConfigManager();
-    
+
     // Save machine type
     config->setString("machine", "type", m_machineTypeCombo->currentText());
     
@@ -456,6 +510,9 @@ void MachineSettingsPage::apply()
     // Save wait states
     config->setString("cpu", "wait_states", m_waitStateCombo->currentText());
     
+    // Save CPU backend
+    config->setString("cpu", "backend", m_cpuBackendCombo->currentData().toString());
+
     // Save PIT mode
     config->setString("timing", "pit_mode", m_pitModeCombo->currentText());
     
@@ -487,6 +544,7 @@ void MachineSettingsPage::reset()
     m_machineTypeCombo->setCurrentIndex(0);
     m_machineCombo->setCurrentIndex(0);
     m_cpuTypeCombo->setCurrentIndex(0);
+    m_cpuBackendCombo->setCurrentIndex(0);
     m_frequencyCombo->setCurrentIndex(0);
     m_fpuCombo->setCurrentIndex(0);
     m_waitStateCombo->setCurrentIndex(0);
@@ -507,6 +565,7 @@ bool MachineSettingsPage::hasChanges() const
     if (m_fpuCombo->currentText() != m_origFpu) return true;
     if (m_waitStateCombo->currentText() != m_origWaitState) return true;
     if (m_pitModeCombo->currentText() != m_origPitMode) return true;
+    if (m_cpuBackendCombo->currentData().toString() != m_origCpuBackend) return true;
     
     // Convert memory size for comparison
     QString memoryStr = m_memoryCombo->currentText();
