@@ -1,0 +1,33 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <file>app_icon.ico</file>
+        <file>settings.ico</file>
+        <file>reset.ico</file>
+        <file>pause.ico</file>
+        <file>resume.ico</file>
+        <file>power.ico</file>
+        <file>fullscreen.ico</file>
+        <file>floppy_inactive.ico</file>
+        <file>floppy_active.ico</file>
+        <file>floppy_no_media.ico</file>
+        <file>cdrom_inactive.ico</file>
+        <file>cdrom_active.ico</file>
+        <file>cdrom_no_media.ico</file>
+        <file>hd_inactive.ico</file>
+        <file>hd_active.ico</file>
+        <file>network_inactive.ico</file>
+        <file>network_active.ico</file>
+        <file>machine.ico</file>
+        <file>display.ico</file>
+        <file>input.ico</file>
+        <file>sound.ico</file>
+        <file>network.ico</file>
+        <file>ports.ico</file>
+        <file>storage_controllers.ico</file>
+        <file>hard_disks.ico</file>
+        <file>floppy_cdrom.ico</file>
+        <file>other_removable.ico</file>
+        <file>other_peripherals.ico</file>
+    </qresource>
+</RCC>
