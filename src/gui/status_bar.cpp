@@ -40,6 +40,11 @@ EmulatorStatusBar::~EmulatorStatusBar()
 {
 }
 
+void EmulatorStatusBar::setCPUBackendInfo(const QString& backendType)
+{
+    m_cpuBackendLabel->setText(QString("CPU: %1").arg(backendType));
+}
+
 void EmulatorStatusBar::setupUi()
 {
     // Load icons
@@ -78,6 +83,10 @@ void EmulatorStatusBar::setupUi()
     m_networkLabel->setPixmap(m_networkInactiveIcon);
     m_networkLabel->setToolTip("Network");
     
+    // Create CPU backend label
+    m_cpuBackendLabel = new QLabel(this);
+    m_cpuBackendLabel->setMinimumWidth(80);
+
     // Add labels to the status bar
     addPermanentWidget(m_networkLabel);
     addPermanentWidget(m_hdLabel);
@@ -85,6 +94,7 @@ void EmulatorStatusBar::setupUi()
     addPermanentWidget(m_floppyBLabel);
     addPermanentWidget(m_floppyALabel);
     addPermanentWidget(m_fpsLabel);
+    addPermanentWidget(m_cpuBackendLabel);
     
     // Create timers
     m_floppyATimer = new QTimer(this);

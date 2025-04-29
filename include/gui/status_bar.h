@@ -48,6 +48,8 @@ public:
     void setCDROMMounted(bool mounted);
     void setHardDiskActivity(int drive, bool active);
     void setNetworkActivity(bool active);
+
+    void setCPUBackendInfo(const QString& backendType);
     
 private:
     void setupUi();
@@ -59,6 +61,7 @@ private:
     QLabel* m_cdromLabel;
     QLabel* m_hdLabel;
     QLabel* m_networkLabel;
+    QLabel* m_cpuBackendLabel;
     
     // Activity timers
     QTimer* m_floppyATimer;
