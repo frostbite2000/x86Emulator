@@ -706,6 +706,41 @@ void MainWindow::setupConnections()
     });
 }
 
+void MainWindow::showMachineDialog()
+{
+    MachineDialog dialog(this, m_configManager);
+    
+    if (dialog.exec() == QDialog::Accepted) {
+        // Update UI based on selected machine
+        updateUIForMachine();
+    }
+}
+
+void MainWindow::updateUIForMachine()
+{
+    // Get current machine
+    auto machine = m_configManager->getMachineConfig();
+    if (!machine) {
+        return;
+    }
+    
+    // Update window title
+    setWindowTitle(QString("x86Emulator - %1").arg(QString::fromStdString(machine->getName())));
+    
+    // Update status bar
+    m_statusMachineLabel->setText(QString("Machine: %1").arg(QString::fromStdString(machine->getName())));
+    m_statusChipsetLabel->setText(QString("Chipset: %1").arg(QString::fromStdString(machine->getChipsetName())));
+    
+    // Update available options in settings dialogs
+    // (This would typically be handled by change callbacks on the config)
+    
+    // Check if emulator is running and needs restart
+    if (m_emulator && m_emulator->isRunning()) {
+        QMessageBox::information(this, tr("Machine Changed"), 
+                              tr("The machine type has been changed. Please restart the emulator for the changes to take effect."));
+    }
+}
+
 void MainWindow::createActions()
 {
     // Action menu
@@ -717,6 +752,14 @@ void MainWindow::createActions()
     m_actionCtrlAltDel = m_actionMenu->addAction("Ctrl+Alt+Del", this, &MainWindow::onActionCtrlAltDel);
     m_actionMenu->addSeparator();
     m_actionExit = m_actionMenu->addAction("Exit", this, &MainWindow::onActionExit, QKeySequence(Qt::CTRL | Qt::Key_Q));
+    
+    // Machine action
+    m_machineAction = new QAction(tr("Select &Machine..."), this);
+    m_machineAction->setStatusTip(tr("Select machine type"));
+    connect(m_machineAction, &QAction::triggered, this, &MainWindow::showMachineDialog);
+    
+    // Add to Machine menu
+    m_machineMenu->addAction(m_machineAction);
     
     // View menu
     m_actionFullScreen = m_viewMenu->addAction("Fullscreen", this, &MainWindow::toggleFullScreen, QKeySequence(Qt::Key_F11));

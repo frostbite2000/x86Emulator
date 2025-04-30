@@ -95,58 +95,90 @@ Emulator::~Emulator()
 
 bool Emulator::initialize()
 {
-    if (m_initialized) {
-        return true;
+    // Initialize machine configuration
+    auto machineName = m_configManager->getString("general", "machine");
+    if (machineName.empty()) {
+        // Default to Shuttle MS11 if no machine is specified
+        machineName = "Shuttle_MS11";
+        m_configManager->setString("general", "machine", machineName);
     }
     
-    m_logger->info("Initializing emulator...");
+    // Get machine configuration
+    auto& machineManager = MachineManager::getInstance();
+    auto machine = machineManager.getMachineByName(machineName);
     
-    try {
-        // Initialize memory subsystem
-        if (!initializeMemory()) {
-            m_logger->error("Memory initialization failed");
-            return false;
-        }
-        
-        // Initialize I/O subsystem
-        if (!initializeIO()) {
-            m_logger->error("I/O initialization failed");
-            return false;
-        }
-        
-        // Initialize interrupt controller
-        m_intController = std::make_unique<InterruptController>();
-        if (!m_intController->initialize()) {
-            m_logger->error("Interrupt controller initialization failed");
-            return false;
-        }
-        
-        // Initialize CPU
-        if (!initializeCPU()) {
-            m_logger->error("CPU initialization failed");
-            return false;
-        }
-        
-        // Initialize devices
-        if (!initializeDevices()) {
-            m_logger->error("Device initialization failed");
-            return false;
-        }
-        
-        // Initialize BIOS
-        if (!initializeBIOS()) {
-            m_logger->error("BIOS initialization failed");
-            return false;
-        }
-        
-        m_initialized = true;
-        m_logger->info("Emulator initialized successfully");
-        return true;
-        
-    } catch (const std::exception& ex) {
-        m_logger->error("Exception during initialization: %s", ex.what());
+    if (!machine) {
+        m_logger->error("Could not find machine configuration: %s", machineName.c_str());
         return false;
     }
+    
+    m_configManager->setMachineConfig(machine);
+    
+    // Load BIOS ROM
+    BiosLoader biosLoader;
+    biosLoader.setBiosDirectory(m_configManager->getString("directories", "bios", "roms/bios"));
+    
+    if (!biosLoader.loadBios(machine, m_memory.get())) {
+        m_logger->error("Failed to load BIOS for machine: %s", machineName.c_str());
+        return false;
+    }
+    
+    // Initialize the CPU
+    // (Use machine-specific CPU settings)
+    std::string cpuType = m_configManager->getString("cpu", "type", "pentium3");
+    int cpuSpeed = m_configManager->getInt("cpu", "speed", 800);
+    
+    if (!m_cpu->initialize(cpuType, cpuSpeed)) {
+        m_logger->error("Failed to initialize CPU: %s @ %d MHz", cpuType.c_str(), cpuSpeed);
+        return false;
+    }
+    
+    // Initialize PCI bus
+    // (Use machine-specific chipset)
+    PCIBusType busType;
+    if (machine->getHardwareSpec().chipset == MachineConfig::ChipsetType::SIS_630) {
+        busType = PCIBusType::SIS_630;
+    } else if (machine->getHardwareSpec().chipset == MachineConfig::ChipsetType::SIS_730) {
+        busType = PCIBusType::SIS_730;
+    } else if (machine->getHardwareSpec().chipset == MachineConfig::ChipsetType::INTEL_440BX) {
+        busType = PCIBusType::INTEL_440BX;
+    } else {
+        m_logger->error("Unsupported chipset type for machine: %s", machineName.c_str());
+        return false;
+    }
+    
+    // Get RAM size from configuration
+    int ramMB = m_configManager->getInt("memory", "size", 128);
+    uint32_t ramSize = static_cast<uint32_t>(ramMB) * 1024 * 1024;
+    
+    // Limit RAM size to maximum supported by machine
+    if (ramMB > machine->getHardwareSpec().maxRamMB) {
+        m_logger->warn("RAM size reduced from %d MB to %d MB (machine maximum)", 
+                  ramMB, machine->getHardwareSpec().maxRamMB);
+        ramMB = machine->getHardwareSpec().maxRamMB;
+        ramSize = static_cast<uint32_t>(ramMB) * 1024 * 1024;
+        m_configManager->setInt("memory", "size", ramMB);
+    }
+    
+    // Create PCI bus
+    m_pciBus = PCIBusFactory::createPCIBus(busType, ramSize);
+    if (!m_pciBus) {
+        m_logger->error("Failed to create PCI bus for chipset: %s", machine->getChipsetName().c_str());
+        return false;
+    }
+    
+    // Map PCI I/O and memory regions
+    m_pciBus->mapRegions(m_memory.get(), m_io.get());
+    
+    // Configure devices
+    configureStorage();
+    configureInput();
+    configureAudio();
+    configureNetwork();
+    
+    m_logger->info("Emulator initialized for machine: %s", machineName.c_str());
+    
+    return true;
 }
 
 bool Emulator::initializeCPU()
